@@ -10,24 +10,13 @@
 	<version>0.0.1</version>
 	<description>MOD_PUREHTML_XML_DESCRIPTION</description>
 	<files>
-		<filename module="mod_custom">mod_purehtml.php</filename>
+		<filename module="mod_purehtml">mod_purehtml.php</filename>
 		<filename>index.html</filename>
 		<folder>tmpl</folder>
 	</files>
-	<languages folder="languages">
-		<language tag="en-GB">en-GB.mod_purehtml.ini</language>
-		<language tag="en-GB">en-GB.mod_purehtml.sys.ini</language>
-	</languages>
   	<config>
     	<fields name="params">
 	    	<fieldset name="basic">
-				<field
-					name="moduleclass_sfx"
-					type="text"
-					default=""
-					label="MOD_PUREHTML_MODULECLASS_SFX_LABEL"
-					description="MOD_PUREHTML_MODULECLASS_SFX_DESCRIPTION" />
-				
 				<field
 					name="cache"
 					type="list"
