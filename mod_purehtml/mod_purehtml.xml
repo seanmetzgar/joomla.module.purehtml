@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.0" client="site">
+	<name>MOD_PUREHTML</name>
+  	<author>Sean Metzgar</author>
+  	<creationDate>2013-09-13</creationDate>
+  	<copyright>MOD_PUREHTML_COPYRIGHT</copyright>
+  	<license>MOD_PUREHTML_LICENSE</license>
+  	<authorEmail></authorEmail>
+	<authorUrl>www.seanmetzgar.com</authorUrl>
+	<version>3.0.0</version>
+	<description>MOD_PUREHTML_XML_DESCRIPTION</description>
+	<files>
+		<filename module="mod_custom">mod_purehtml.php</filename>
+		<filename>index.html</filename>
+		<folder>tmpl</folder>
+	</files>
+	<languages folder="languages">
+		<language tag="en-GB">en-GB.mod_custom.sys.ini</language>
+	</languages>
+  	<config>
+    	<fields name="params">
+	    	<fieldset name="basic">
+				<field
+					name="moduleclass_sfx"
+					type="text"
+					default=""
+					label="MOD_PUREHTML_MODULECLASS_SFX_LABEL"
+					description="MOD_PUREHTML_MODULECLASS_SFX_DESCRIPTION" />
+				
+				<field
+					name="cache"
+					type="list"
+					default="0"
+					label="MOD_PUREHTML_CACHE_LABEL"
+					description="MOD_PUREHTML_CACHE_DESCRIPTION">
+						<option value="0">JNO</option>
+						<option value="1">JYES</option>
+				</field>
+			
+				<field
+					name="@spacer"
+					type="spacer"
+					default=""
+					label=""
+					description="" />
+				
+				<field
+					name="phCode"
+					type="textarea"
+					filter="raw"
+					default=""
+					label="MOD_PUREHTML_PHCODE_LABEL"
+					description="MOD_PUREHTML_PHCODE_DESCRIPTION"
+					cols="70"
+					rows="30" />
+				
+		  		<field
+					name="@spacer"
+					type="spacer"
+					default=""
+					label=""
+					description="" />
+				
+				<field
+					name="phCleanJS"
+					type="list"
+					default="0"
+					label="MOD_PUREHTML_PHCLEANJS_LABEL"
+					description="MOD_PUREHTML_PHCLEANJS_DESCRIPTION">
+						<option value="0">JNO</option>
+						<option value="1">JYES</option>
+				</field>
+			
+				<field
+					name="phCleanCSS"
+					type="list"
+					default="0"
+					label="MOD_PUREHTML_PHCLEANCSS_LABEL"
+					description="MOD_PUREHTML_PHCLEANCSS_DESCRIPTION">
+						<option value="0">JNO</option>
+						<option value="1">JYES</option>
+				</field>
+			
+				<field
+					name="phCleanAll"
+					type="list"
+					default="0"
+					label="MOD_PUREHTML_PHCLEANALL_LABEL"
+					description="MOD_PUREHTML_PHCLEANALL_DESCRIPTION">
+						<option value="0">JNO</option>
+						<option value="1">JYES</option>
+				</field>
+			
+		    </fieldset>
+	    </fields>
+  	</config>
+</extension>
