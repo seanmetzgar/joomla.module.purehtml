@@ -15,7 +15,7 @@
 		<folder>tmpl</folder>
 	</files>
 	<languages folder="languages">
-		<language tag="en-GB">en-GB.mod_custom.sys.ini</language>
+		<language tag="en-GB">en-GB.mod_purehtml.sys.ini</language>
 	</languages>
   	<config>
     	<fields name="params">
