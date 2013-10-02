@@ -7,7 +7,7 @@
   	<license>MOD_PUREHTML_LICENSE</license>
   	<authorEmail></authorEmail>
 	<authorUrl>www.seanmetzgar.com</authorUrl>
-	<version>0.1.0</version>
+	<version>1.0.0</version>
 	<description>MOD_PUREHTML_XML_DESCRIPTION</description>
 	<files>
 		<filename module="mod_purehtml">mod_purehtml.php</filename>
@@ -83,5 +83,8 @@
 			
 		    </fieldset>
 	    </fields>
-  	</config>
+  	</config>  	
+  	<updateservers>
+        <server type="extension" priority="1" name="code.seanmetzgar.com">http://code.seanmetzgar.com/joomla/modules/mod_purehtml/update</server>
+    </updateservers>
 </extension>
