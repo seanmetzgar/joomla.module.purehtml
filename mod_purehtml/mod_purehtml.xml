@@ -2,12 +2,12 @@
 <extension type="module" version="3.0" client="site" method="upgrade">
 	<name>MOD_PUREHTML</name>
   	<author>Sean Metzgar</author>
-  	<creationDate>2013-09-13</creationDate>
+  	<creationDate>2013-10-02</creationDate>
   	<copyright>MOD_PUREHTML_COPYRIGHT</copyright>
   	<license>MOD_PUREHTML_LICENSE</license>
   	<authorEmail></authorEmail>
 	<authorUrl>www.seanmetzgar.com</authorUrl>
-	<version>1.0.4</version>
+	<version>1.0.5</version>
 	<description>MOD_PUREHTML_XML_DESCRIPTION</description>
 	<files>
 		<filename module="mod_purehtml">mod_purehtml.php</filename>
