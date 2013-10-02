@@ -7,7 +7,7 @@
   	<license>MOD_PUREHTML_LICENSE</license>
   	<authorEmail></authorEmail>
 	<authorUrl>www.seanmetzgar.com</authorUrl>
-	<version>1.0.3</version>
+	<version>1.0.4</version>
 	<description>MOD_PUREHTML_XML_DESCRIPTION</description>
 	<files>
 		<filename module="mod_purehtml">mod_purehtml.php</filename>
@@ -16,8 +16,8 @@
 		<filename>LICENSE.txt</filename>
 	</files>
     <languages>
-		<language tag="en-GB">en-GB.mod_purehtml.ini</language>
-		<language tag="en-GB">en-GB.mod_purehtml.sys.ini</language>
+		<language tag="en-GB">language/en-GB/en-GB.mod_purehtml.ini</language>
+		<language tag="en-GB">language/en-GB/en-GB.mod_purehtml.sys.ini</language>
 	</languages>
   	<config>
     	<fields name="params">
